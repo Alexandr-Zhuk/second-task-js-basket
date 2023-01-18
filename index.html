@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Basket</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="head">
+                <div class="basket-name">
+                    Корзина
+                </div>
+                <div class="currencies">
+                    <select class="currency" name="currency" id="">
+                        <option value="uah" selected> грн</option>
+                        <option value="usd"> $</option>
+                        <option value="eur"> €</option>
+                    </select>
+                </div>
+            </div>
+            <div class="basket">
+                <div class="table-header">
+                    Название
+                </div>
+                <div class="table-header">
+                    Количество
+                </div>
+                <div class="table-header">
+                    Цена
+                </div>
+                <div class="table-header">
+                    Сумма
+                </div>
+                <div class="good-info good-name" data-id="1">
+                    Чашка белая с цветком
+                </div>
+                <div class="good-info good-qty">
+                    <div class="decr" data-id="1">-</div>
+                    <div class="qty" data-id="1">1</div>
+                    <div class="incr" data-id="1">+</div>
+                </div>
+                <div class="good-info good-price" data-id="1">
+                    <input name="price" placeholder="цена">
+                </div>
+                <div class="good-info good-sum" data-id="1">
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

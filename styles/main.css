@@ -1,0 +1,47 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container .content .head {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.container .content .basket {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) 100px 100px 100px;
+  grid-template-rows: 40px 35px;
+  grid-auto-rows: 35px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  align-items: center;
+}
+.container .content .basket .table-header {
+  font-size: 16px;
+  font-weight: 700;
+}
+.container .content .basket .good-qty {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.container .content .basket .good-qty .decr,
+.container .content .basket .good-qty .incr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+  top: 0;
+  font-size: 18px;
+}
+.container .content .basket .good-qty .decr:hover,
+.container .content .basket .good-qty .incr:hover {
+  cursor: pointer;
+}
+.container .content .basket .good-price input {
+  max-width: 60px;
+}/*# sourceMappingURL=main.css.map */

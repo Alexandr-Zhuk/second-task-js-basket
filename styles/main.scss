@@ -1,0 +1,61 @@
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+
+    .content{
+
+        .head{
+            font-size: 24px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .basket{
+            display: grid;
+            grid-template-columns: minmax(200px, 1fr) 100px 100px 100px;
+            grid-template-rows: 40px 35px;
+            grid-auto-rows: 35px;
+            column-gap: 15px;
+            align-items: center;
+
+            
+
+            .table-header{
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .good-qty{
+                display: flex;
+                text-align: center;
+                justify-content: space-between;
+
+                .decr,
+                .incr{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    border: 1px solid black;
+                    top: 0;
+                    font-size: 18px;
+                }
+
+                .decr:hover,
+                .incr:hover{
+                    cursor: pointer;
+                }
+               
+            }
+
+            .good-price{
+                input{
+                    max-width: 60px;
+                }
+            }
+        }
+    }
+}
